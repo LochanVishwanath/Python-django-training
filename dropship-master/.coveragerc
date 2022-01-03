@@ -1,0 +1,15 @@
+[run]
+data_file = out/.coverage
+source =
+    dropship
+omit =
+	*__init__*
+    *migrations*
+    *wsgi*
+    *venv*
+
+[html]
+directory = out/coverage
+
+[xml]
+output = out/coverage.xml
